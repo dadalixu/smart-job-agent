@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "profile": {
+    "城市": "示例城市",
+    "年龄": "25",
+    "技能": ["Python", "SQL"]
+  },
+  "queries": [
+    "示例城市 Python 开发 招聘"
+  ],
+  "jobs": [
+    {
+      "title": "示例岗位名",
+      "company": "示例公司",
+      "location": "示例城市",
+      "source": "https://careers.example.com/jobs/12345",
+      "snippet": "这里是岗位摘要片段……",
+      "query": "示例城市 Python 开发 招聘",
+      "found_at": "2026-01-01T00:00:00"
+    },
+    {
+      "title": "示例岗位名二",
+      "company": "",
+      "location": "",
+      "source": "https://jobs.example.org/positions/67890",
+      "snippet": "",
+      "query": "示例城市 Python 开发 招聘",
+      "found_at": "2026-01-01T00:00:01"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# ===== 个人数据：含求职意向与浏览记录，绝不入库 =====
+job_prefs.json
+job_prefs_v2.json
+job_prefs.json.bak
+*.bak
+backups/
+
+# ===== 密钥与环境 =====
+.env
+.env.local
+*.env
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
